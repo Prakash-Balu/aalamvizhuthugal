@@ -69,6 +69,18 @@ body{
 	width: 100%;
 }
 
+/** Team **/
+.team_separate_col {
+	padding-bottom: 30px;
+}
+.team_mem_detail {
+	position: absolute;
+    z-index: 1;
+    margin-top: -200px;
+    padding-left: 255px;
+}
+
+/** Footer **/
 .footer{
 	background-color: #003471;
 	padding-bottom: 8px;
