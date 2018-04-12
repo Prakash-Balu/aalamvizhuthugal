@@ -171,6 +171,7 @@ body {
 .as-small-view ul li:hover .as-icon:before {
     border: 1px solid;
     background-color: #fff;
+    transition:0.7s;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
