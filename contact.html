@@ -12,6 +12,8 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" /> -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gugi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -30,7 +32,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navbar-collapse-1">
                 <ul class="nav navbar-nav navbar_menu1 pull-left text-center">
-                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="#programe">Program</a></li>
                     <li><a href="#gallery">Gallery</a></li>
@@ -40,7 +42,7 @@
                     <li><a href="#">Donate</a></li>
                     <li><a href="team.html">Our Team</a></li>
                     <li><a href="#">Reports</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="site_logo">
@@ -82,59 +84,85 @@
         </div>
     </header>
 
-    <section class="container-fluid container_wrapper">
+    <!-- <section class="container-fluid contact_wrapper">
         <div class="row">
-            <div class="col-sm-6 col-md-offset-1 col-md-10 col-md-offset-1">
-                <h4 class="text-center">Vision</h6>
-                    <p class="text-center">These are reason behind the inception of the social service centre named Aalamvizhuthugal. there are many students we encounter in our day to day life, not provided with good schooling though they are intelligent enough to and their
-                        doubts are not cleared while teaching, so we decided to help them in learning things on service.</p>
-                    <p>The non organization social service centre was devised to serve as bridge between those who were benefited as a student and peers who studied with me.</p>
+            <div class="col-sm-6">
+                <h4 class="text-center">Mission</h4>
+                <p class="text-center">The social service centre serves the orphans, and academical enthusiastic students from economically depressed classes and student lacking social consciousness and essay to prepare them to face the challenges ahead of their future and
+                    to teach them how to save and protect people from the natural disasters and to protect ecology. </p>
+                <p class="text-center">To prepare the students for the better future and to teach them about our heritage and of traditional values. The aim of our service is to create social awareness and to reach them to the society. </p>
             </div>
-            <div class="col-sm-6 col-md-offset-1 col-md-10 col-md-offset-1">
-                <h4 class="text-center">Mission</h6>
-                    <p class="text-center">The social service centre serves the orphans, and academical enthusiastic students from economically depressed classes and student lacking social consciousness and essay to prepare them to face the challenges ahead of their future
-                        and to teach them how to save and protect people from the natural disasters and to protect ecology. </p>
-                    <p class="text-center">To prepare the students for the better future and to teach them about our heritage and of traditional values. The aim of our service is to create social awareness and to reach them to the society. </p>
-            </div>
-            <div class="col-md-12 services">
-                <div class="col-md-12 minus-element-margin">
-                    <div class="as-services as-small-view">
-                        <ul class="row">
-                            <li class="col-md-4">
-                                <div class="as-service-wrap">
-                                    <span class="as-icon"> <i class="fas fa-hands-helping"></i></span>
-                                    <div class="as-infowrap">
-                                        <h2>Help and Support </h2>
-                                        <p>Towards Examined Wherever Less Eel Unceremoniously About Yikes Forward Up Trim Until And Much Ahead. Lorem ipsum dolor sit... </p>
-                                        <a href="#">Read More <i class="fa fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="as-service-wrap">
-                                    <span class="as-icon"><i class="fas fa-people-carry"></i></span>
-                                    <div class="as-infowrap">
-                                        <h2>VOLUNTEERING </h2>
-                                        <p>Towards Examined Wherever Less Eel Unceremoniously About Yikes Forward Up Trim Until And Much Ahead. Lorem ipsum dolor sit... </p>
-                                        <a href="#">Read More <i class="fa fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="col-md-4">
-                                <div class="as-service-wrap">
-                                    <span class="as-icon"><i class="fas fa-hands"></i></span>
-                                    <div class="as-infowrap">
-                                        <h2>IMPACT FOR EVERYONE </h2>
-                                        <p>Towards Examined Wherever Less Eel Unceremoniously About Yikes Forward Up Trim Until And Much Ahead. Lorem ipsum dolor sit... </p>
-                                        <a href="#">Read More <i class="fa fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+            <div class="col-sm-6">
+                <h4>Send me as a Message</h4>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name">
                     </div>
-                </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Comment:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary pull-right"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+                </form>
             </div>
         </div>
+    </section> -->
+
+    <section id="contact">
+        <div class="section-content">
+            <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+        </div>
+        <div class="contact-section">
+            <div class="container">
+                <div class="row contact_inner_container">
+                    <form>
+                        <div class="col-md-6 col-xs-6 form-line">
+                            <div class="form-group">
+                                <label for="exampleInputUsername">Your name</label>
+                                <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail">Email Address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                            </div>
+                            <div class="form-group">
+                                <label for="telephone">Mobile No.</label>
+                                <input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+                            </div>
+                            <div class="form-group">
+                                <label for="description"> Message</label>
+                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xs-6">
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+                            </div>
+                            <div class="phone">
+                                <i class="fas fa-phone"></i>
+                                <p>+1 800 1236879</p>
+                            </div>
+                            <div class="envelope">
+                                <i class="fas fa-at"></i>
+                                <p>contact@example.com</p>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
     </section>
 
     <footer id="footer" class="footer">
