@@ -84,39 +84,6 @@
         </div>
     </header>
 
-    <!-- <section class="container-fluid contact_wrapper">
-        <div class="row">
-            <div class="col-sm-6">
-                <h4 class="text-center">Mission</h4>
-                <p class="text-center">The social service centre serves the orphans, and academical enthusiastic students from economically depressed classes and student lacking social consciousness and essay to prepare them to face the challenges ahead of their future and
-                    to teach them how to save and protect people from the natural disasters and to protect ecology. </p>
-                <p class="text-center">To prepare the students for the better future and to teach them about our heritage and of traditional values. The aim of our service is to create social awareness and to reach them to the society. </p>
-            </div>
-            <div class="col-sm-6">
-                <h4>Send me as a Message</h4>
-                <form action="/action_page.php">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" class="form-control" id="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address:</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone:</label>
-                        <input type="text" class="form-control" id="phone">
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Comment:</label>
-                        <textarea class="form-control" rows="5" id="comment"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary pull-right"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section> -->
-
     <section id="contact">
         <div class="section-content">
             <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
@@ -124,45 +91,58 @@
         <div class="contact-section">
             <div class="container">
                 <div class="row contact_inner_container">
-                    <form>
+                    <form id="contact-form" action="javascript:return;">
                         <div class="col-md-6 col-xs-6 form-line">
+                            <div id="success-message" class="alert alert-dismissible alert-success display-none" style="display: none;"></div>
                             <div class="form-group">
-                                <label for="exampleInputUsername">Your name</label>
-                                <input type="text" class="form-control" id="" placeholder=" Enter Name">
+                                <label for="name">Your name</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder=" Enter Name">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail">Email Address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+                                <label for="email">Email Address</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder=" Enter Email id">
                             </div>
                             <div class="form-group">
-                                <label for="telephone">Mobile No.</label>
-                                <input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+                                <label for="phone">Mobile No.</label>
+                                <input type="tel" class="form-control" name="phone" id="phone" placeholder=" Enter 10-digit mobile no.">
                             </div>
                             <div class="form-group">
-                                <label for="description"> Message</label>
-                                <textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                                <label for="message"> Message</label>
+                                <textarea class="form-control" name="message" id="message" placeholder="Enter Your Message"></textarea>
                             </div>
                             <div>
-                                <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+                                <button type="submit" name="submit" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
                             </div>
                         </div>
                         <div class="col-md-6 col-xs-6">
                             <div class="address">
                                 <i class="fas fa-map-marker-alt"></i>
-                                <p>Mada Center 8th floor, 379 Hudson St, New York, NY 10018 US</p>
+                                <p>#1/48, GVM Complex Main Road (Opp to Govt.Hr.Sec.School), B.Mutlur, Chidambaram-608501</p>
                             </div>
                             <div class="phone">
                                 <i class="fas fa-phone"></i>
-                                <p>+1 800 1236879</p>
+                                <p>+91-8489281828</p>
                             </div>
                             <div class="envelope">
                                 <i class="fas fa-at"></i>
-                                <p>contact@example.com</p>
+                                <p>aalamvizhuthugal2017@gmail.com</p>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+    </section>
+
+    <section id="map">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 contact-map-wrapper">
+                    <div style="width: 100%"><iframe width="100%" height="450" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=B.mutlur%20chidambaram-608501+(AALAM%20VIZHUTHUGAL)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0"
+                            style="border:0" allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <footer id="footer" class="footer">
@@ -177,6 +157,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.1/js/bootstrapValidator.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

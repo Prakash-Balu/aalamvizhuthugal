@@ -390,11 +390,12 @@ fieldset {
     width: 100%;
     width: 100vw;
     height: auto;
-    background: #3a6186;
+    /* background: #3a6186; */
+    background: #011c35;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #3a6186, #89253e);
+    /* background: -webkit-linear-gradient(to left, #3a6186, #89253e); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #3a6186, #89253e);
+    /* background: linear-gradient(to left, #3a6186, #89253e); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
@@ -413,6 +414,10 @@ fieldset {
 
 .form-group {
     margin-top: 10px;
+}
+
+.has-error .help-block {
+    font-size: 17px;
 }
 
 label {
@@ -456,6 +461,11 @@ textarea.form-control {
 .phone p,
 .envelope p {
     font-size: 25px;
+    font-family: 'Gugi', cursive;
+}
+
+.contact-map-wrapper {
+    padding: 0;
 }
 
 
