@@ -90,7 +90,8 @@ $('#contact-form').bootstrapValidator({
                 $('.alert').html('Your message sent successfully your entered mail id: ' + $("input[name='email']").val() + '<button type="button" class="close" data-dismiss="alert">×</button>').show();
                 $('.alert').fadeIn(100);
                 $('.alert').delay(5000).fadeOut(1000);
-                validator.resetForm();
+                // validator.resetForm();
+                $('#contact-form')[0].reset();
             }
         });
         //$form.find('.alert').html('Thanks for signing up. Now you can sign in as ' + validator.getFieldElements('email').val()).show();
