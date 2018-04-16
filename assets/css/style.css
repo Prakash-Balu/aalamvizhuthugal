@@ -2,6 +2,32 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.title {
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.title h1 {
+    color: #fff;
+}
+
+.title .btn {
+    margin-left: 202px;
+}
+
+.separator {
+    height: 2px;
+    width: 30px;
+    margin: 20px auto;
+    background: #fff;
+}
+
+.head_title h2 {
+    color: #003471;
+    font-weight: bold;
+}
+
 .container_wrapper {
     background-color: #3aa1cd;
     color: #fff;
@@ -119,6 +145,16 @@ body {
     left: 0;
 }
 
+.carousel-inner>.item:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
 
 /** Home Content **/
 
@@ -214,6 +250,23 @@ body {
 
 
 /** About Content **/
+
+.about_us_content_img::before {
+    content: '';
+    position: absolute;
+    width: 1000px;
+    height: 662px;
+    top: 39px;
+    left: 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.about_us_content {
+    position: absolute;
+    top: 460px;
+    width: 86%;
+    left: 34px;
+}
 
 .w3_agile_services_grids {
     margin: 3em 0 0;
