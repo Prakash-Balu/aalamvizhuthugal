@@ -5,15 +5,15 @@ body {
 .title {
     position: absolute;
     top: 150px;
-    left: 500px;
 }
 
 .title h1 {
     color: #fff;
+    font-family: 'Do Hyeon', sans-serif;
 }
 
 .title .btn {
-    margin-left: 202px;
+    margin-left: 190px;
 }
 
 .separator {
@@ -152,7 +152,7 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.35);
 }
 
 
@@ -238,6 +238,8 @@ body {
 
 .as-infowrap h2 {
     color: #003471;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .as-infowrap a {
@@ -287,9 +289,9 @@ fieldset {
 }
 
 .w3_agile_services_grid legend {
-    text-transform: capitalize;
-    font-size: 1.3em;
+    font-size: 15px;
     color: #003471;
+    text-transform: uppercase;
     line-height: 1.5em;
     margin: 0;
     font-weight: bold;
@@ -443,12 +445,12 @@ fieldset {
     width: 100%;
     width: 100vw;
     height: auto;
-    /* background: #3a6186; */
-    background: #011c35;
+    background: #3a6186;
+    /* background: #011c35; */
     /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to left, #3a6186, #89253e); */
+    background: -webkit-linear-gradient(to left, #3a6186, #89253e);
     /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #3a6186, #89253e); */
+    background: linear-gradient(to left, #3a6186, #89253e);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff;
 }
@@ -471,6 +473,7 @@ fieldset {
 
 .has-error .help-block {
     font-size: 17px;
+    color: #3cadd2;
 }
 
 label {
