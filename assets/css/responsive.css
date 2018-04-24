@@ -85,6 +85,18 @@
     .title h1 {
         font-size: 36px;
     }
+    /* ## Footer */
+    /* -- Contact Details */
+    .contact-details .detail-box {
+        padding-left: 70px;
+        height: 120px;
+    }
+    .contact-details .detail-box i {
+        width: 60px;
+    }
+    .contact-details .detail-box p {
+        font-size: 12px;
+    }
 }
 
 

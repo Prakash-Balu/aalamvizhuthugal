@@ -32,6 +32,7 @@ body {
     background-color: #3aa1cd;
     color: #fff;
     padding: 20px;
+    padding-bottom: 100px;
 }
 
 .container_wrapper h4 {
@@ -485,6 +486,11 @@ fieldset {
 
 /** Team **/
 
+.team_wrapper {
+    position: relative;
+    z-index: 0;
+}
+
 .team_separate_col {
     padding-bottom: 30px;
 }
@@ -608,6 +614,119 @@ textarea.form-control {
 
 .contact-map-wrapper {
     padding: 0;
+}
+
+
+/** Footer contact **/
+
+.contact-details {
+    width: 100%;
+    display: inline-block;
+    margin-top: -60px;
+    margin-bottom: 55px;
+}
+
+.contact-details,
+.contact-details .detail-box {
+    position: relative;
+}
+
+.contact-details:before {
+    border-left: 20px solid transparent;
+    left: -20px;
+}
+
+.contact-details:after {
+    border-right: 20px solid transparent;
+    right: -20px;
+}
+
+.contact-details:before,
+.contact-details:after {
+    content: "";
+    position: absolute;
+    border-bottom: 60px solid #0072b5;
+    top: 0;
+}
+
+.contact-details .detail-box,
+.contact-details .detail-box a {
+    color: #fff;
+}
+
+.contact-details .detail-box {
+    padding: 30px 15px 30px 97px;
+    background-color: #33a9ee;
+}
+
+.contact-details,
+.contact-details .detail-box {
+    position: relative;
+}
+
+.contact-details .detail-box.phone-box {
+    background-color: #2098df;
+}
+
+.contact-details .detail-box.phone-box p {
+    padding-top: 20px;
+}
+
+.contact-details .detail-box {
+    padding: 30px 15px 30px 97px;
+    background-color: #33a9ee;
+}
+
+.contact-details .detail-box p {
+    font-size: 13px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.contact-details .detail-box h4 {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-details .detail-box.phone-box i {
+    background-color: #0f89d1;
+    border-bottom-color: #fff;
+}
+
+.contact-details .detail-box i {
+    width: 56px;
+    height: 61px;
+    position: absolute;
+    left: 0;
+    line-height: 60px;
+    background-color: #2098df;
+    text-align: center;
+    border-bottom: 1px solid #2098df;
+}
+
+.contact-details .detail-box i img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-details .detail-box.mail-box {
+    background-color: #0f89d1;
+}
+
+.contact-details .detail-box.mail-box p {
+    padding-top: 20px;
+}
+
+.contact-details .detail-box.mail-box i {
+    background-color: #0779bc;
+}
+
+.contact-details .detail-box.address-box p {
+    padding-top: 10px;
 }
 
 
