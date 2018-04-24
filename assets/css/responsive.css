@@ -8,9 +8,6 @@
     .carousel {
         z-index: 0;
     }
-    .title {
-        top: 0;
-    }
     .title h1 {
         font-size: 20px;
     }
@@ -78,9 +75,6 @@
         z-index: -1;
         padding-left: 366px;
         margin-top: -50px;
-    }
-    .title {
-        top: 150px;
     }
     .title h1 {
         font-size: 36px;
