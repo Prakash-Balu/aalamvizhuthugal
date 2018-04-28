@@ -8,6 +8,9 @@
     .carousel {
         z-index: 0;
     }
+    .title {
+        padding-top: 13px;
+    }
     .title h1 {
         font-size: 20px;
     }
@@ -67,14 +70,24 @@
 
 @media screen and (min-width: 768px) {
     .navbar_wrapper .navbar-nav>li {
-        padding-left: 3px;
+        padding-left: 0;
+        margin-left: -10px;
+    }
+    .navbar_wrapper .navbar-nav>li a {
+        font-size: 10px;
     }
     .site_logo {
         display: block;
         position: absolute;
         z-index: -1;
-        padding-left: 366px;
-        margin-top: -50px;
+        padding-left: 312px;
+        margin-top: -40px;
+    }
+    .site_logo img {
+        width: 75px;
+    }
+    .title {
+        padding-top: 0;
     }
     .title h1 {
         font-size: 36px;
@@ -98,10 +111,16 @@
 
 @media screen and (min-width: 992px) {
     .navbar_wrapper .navbar-nav>li {
-        padding-left: 28px;
+        padding-left: 22px;
+    }
+    .navbar_wrapper .navbar-nav>li a {
+        font-size: 12px;
+    }
+    .site_logo img {
+        width: 100px;
     }
     .site_logo {
-        padding-left: 490px;
+        padding-left: 422px;
     }
 }
 
@@ -110,10 +129,10 @@
 
 @media screen and (min-width: 1200px) {
     .navbar_wrapper .navbar-nav>li {
-        padding-left: 62px;
+        padding-left: 46px;
     }
     .site_logo {
-        padding-left: 608px;
+        padding-left: 538px;
     }
 }
 
@@ -122,10 +141,10 @@
 
 @media screen and (min-width: 1360px) {
     .navbar_wrapper .navbar-nav>li {
-        padding-left: 40px;
+        padding-left: 64px;
     }
     .site_logo {
-        padding-left: 600px;
+        padding-left: 618px;
     }
 }
 
@@ -137,7 +156,7 @@
         padding-left: 78px;
     }
     .site_logo {
-        padding-left: 735px;
+        padding-left: 675px;
     }
 }
 
@@ -149,7 +168,7 @@
         padding-left: 95px;
     }
     .site_logo {
-        padding-left: 825px;
+        padding-left: 758px;
     }
 }
 
@@ -161,7 +180,7 @@
         padding-left: 105px;
     }
     .site_logo {
-        padding-left: 875px;
+        padding-left: 806px;
     }
 }
 
@@ -173,7 +192,7 @@
         padding-left: 135px;
     }
     .site_logo {
-        padding-left: 1025px;
+        padding-left: 940px;
     }
 }
 
@@ -185,6 +204,6 @@
         padding-left: 208px;
     }
     .site_logo {
-        padding-left: 1322px;
+        padding-left: 1278px;
     }
 }

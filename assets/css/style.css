@@ -3,11 +3,12 @@ body {
 }
 
 .title {
-    padding-top: 25px;
-    position: absolute;
+    /* padding-top: 25px; */
+    position: fixed;
     z-index: 1;
     /* background: rgba(0, 0, 0, 0.35); */
-    background: rgba(0, 60, 97, 0.50);
+    /* background: rgba(0, 60, 97, 0.50); */
+    background: rgb(0, 52, 113);
     width: 100%;
     left: 0;
     margin: 0;
@@ -27,6 +28,10 @@ body {
 .title h1 {
     color: #fff;
     font-family: 'Do Hyeon', sans-serif;
+}
+
+.title h4 {
+    color: #fff;
 }
 
 .title .btn {
@@ -65,6 +70,7 @@ body {
     position: fixed;
     z-index: 2;
     width: 100%;
+    top: 94px;
 }
 
 .navbar_wrapper .navbar-nav>ul {
@@ -110,9 +116,27 @@ body {
 }
 
 .slider_wrapper {
-    padding-top: 65px;
+    padding-top: 159px;
     padding-left: 0;
     padding-right: 0;
+}
+
+.topbar-social {
+    padding-top: 40px;
+    padding-left: 200px;
+    font-size: 30px;
+}
+
+.p-r-60 {
+    padding-right: 60px;
+}
+
+.p-r-88 {
+    padding-right: 88px;
+}
+
+.carousel_wrapper {
+    padding: 0;
 }
 
 .carousel-inner .item img {
@@ -766,15 +790,17 @@ textarea.form-control {
     color: #fff;
 }
 
-
-/*** ***/
-
-.title {
+** **
+/*.title {
     -webkit-animation: myfirst 5s 2;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate;
-    /* Safari 4.0 - 8.0 */
-    animation: myfirst 5s 2;
+
+-webkit-animation-direction: alternate;
+
+/* Safari 4.0 - 8.0 */
+
+
+/*animation: myfirst 5s 2;
     animation-direction: alternate;
 }
 
@@ -822,4 +848,4 @@ textarea.form-control {
         left: 0px;
         top: 0px;
     }
-}
+}*/
