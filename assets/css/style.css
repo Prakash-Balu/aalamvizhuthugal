@@ -55,6 +55,12 @@ body {
     margin-left: 190px;
 }
 
+.latest_news_wrapper {
+    background: rgba(0, 60, 97, 0.50);
+    width: 100%;
+    left: 0;
+}
+
 .separator {
     height: 2px;
     width: 30px;
