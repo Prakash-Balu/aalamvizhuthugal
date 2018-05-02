@@ -68,17 +68,28 @@ body {
     font-weight: bold;
 }
 
+.about_bg {
+    background: url(../images/about/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.about_wrapper {}
+
 .container_wrapper {
-    background-color: #3aa1cd;
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    /* background-color: #3aa1cd; */
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: #fff;
     padding: 20px;
     padding-bottom: 100px;
 }
 
-.container_wrapper h4 {
-    color: #00326e;
+.about_wrapper h4 {
+    /* color: #00326e; */
+    color: aqua;
     font-family: 'Gugi', cursive;
     font-weight: bold;
 }
