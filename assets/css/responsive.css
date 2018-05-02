@@ -11,10 +11,10 @@
     .title {
         padding-top: 13px;
     }
-    .title h1 {
+    .title_wrapper h1 {
         font-size: 20px;
     }
-    .title .btn {
+    .membership_wrapper.btn {
         margin-left: 75px;
         font-size: 15px;
     }
@@ -87,9 +87,9 @@
         width: 75px;
     }
     .title {
-        padding-top: 0;
+        padding-top: 35px;
     }
-    .title h1 {
+    .title_wrapper h1 {
         font-size: 36px;
     }
     /* ## Footer */

@@ -2,39 +2,56 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.home_bg {
+    background: url(../images/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .title {
     /* padding-top: 25px; */
     position: fixed;
     z-index: 1;
     /* background: rgba(0, 0, 0, 0.35); */
     /* background: rgba(0, 60, 97, 0.50); */
-    background: rgb(0, 52, 113);
+    /* background: rgb(0, 52, 113); */
+    /* background: rgb(26, 95, 177); */
+    background: url(../images/header_bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     width: 100%;
     left: 0;
     margin: 0;
+    height: 145px;
 }
 
-
-/* .title::before {
+.title::before {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, 0.35);
-} */
+    background: rgba(0, 0, 0, 0.5);
+}
 
-.title h1 {
+.title_wrapper h1 {
     color: #fff;
     font-family: 'Do Hyeon', sans-serif;
+    margin-top: 17px;
 }
 
-.title h4 {
+.title_wrapper h3 {
     color: #fff;
+    font-size: 23px;
+    margin-top: 0;
 }
 
-.title .btn {
+.membership_wrapper .btn {
     margin-left: 190px;
 }
 
@@ -46,12 +63,15 @@ body {
 }
 
 .head_title h2 {
-    color: #003471;
+    /* color: #003471; */
+    color: aqua;
     font-weight: bold;
 }
 
 .container_wrapper {
-    background-color: #3aa1cd;
+    /* background-color: #3aa1cd; */
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
     color: #fff;
     padding: 20px;
     padding-bottom: 100px;
@@ -65,12 +85,12 @@ body {
 
 .navbar_wrapper {
     background: linear-gradient(#3065b5, #3eb8d7);
-    border: none;
+    /* border: none; */
     min-height: 65px;
     position: fixed;
     z-index: 2;
     width: 100%;
-    top: 94px;
+    top: 145px;
 }
 
 .navbar_wrapper .navbar-nav>ul {
@@ -122,17 +142,26 @@ body {
 }
 
 .topbar-social {
-    padding-top: 40px;
-    padding-left: 200px;
-    font-size: 30px;
+    margin-top: 60px;
 }
 
-.p-r-60 {
-    padding-right: 60px;
+.btn-container {
+    padding-left: 60px;
 }
 
-.p-r-88 {
-    padding-right: 88px;
+.btn-spacing {
+    margin-right: 10px;
+}
+
+.membership_wrapper {
+    margin-left: 145px;
+    margin-top: 30px;
+}
+
+.membership_wrapper h4 {
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 .carousel_wrapper {
@@ -283,7 +312,8 @@ body {
 }
 
 .as-infowrap h2 {
-    color: #003471;
+    /* color: #003471; */
+    color: #ffff66;
     font-size: 20px;
     font-weight: bold;
 }
@@ -312,7 +342,7 @@ body {
     width: 100%;
     height: 100%;
     display: block;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .auto-container {
@@ -372,6 +402,7 @@ body {
 .btn-style-three:hover {
     background-color: #003471;
     border-color: #003471;
+    cursor: pointer;
 }
 
 .input-group .form-control {
@@ -418,7 +449,8 @@ fieldset {
 
 .w3_agile_services_grid legend {
     font-size: 15px;
-    color: #003471;
+    /* color: #003471; */
+    color: #ffff66;
     text-transform: uppercase;
     line-height: 1.5em;
     margin: 0;
