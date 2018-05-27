@@ -3,7 +3,7 @@
 @media screen and (min-width: 320px) {
     .site_logo {
         display: none;
-        padding-left: 116px;
+        padding-left: 100px;
     }
     .carousel {
         z-index: 0;
@@ -11,8 +11,21 @@
     .title {
         padding-top: 13px;
     }
+    .topbar-social {
+        width: 20px;
+        margin-top: 0;
+    }
+    /*.topbar-social ul li img {
+        width: 17px;
+    } */
     .title_wrapper h1 {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .title_wrapper h3 {
+        font-size: 16px;
+    }
+    .membership_wrapper {
+        margin-top: -32px;
     }
     .membership_wrapper.btn {
         margin-left: 75px;
@@ -87,10 +100,22 @@
         width: 75px;
     }
     .title {
-        padding-top: 35px;
+        padding-top: 52px;
     }
     .title_wrapper h1 {
         font-size: 36px;
+    }
+    .title_wrapper h3 {
+        font-size: 23px;
+    }
+    .topbar-social {
+        margin-top: 50px;
+        text-align: left;
+        width: 100%;
+    }
+    .membership_wrapper {
+        margin-top: 0;
+        float: right;
     }
     /* ## Footer */
     /* -- Contact Details */
