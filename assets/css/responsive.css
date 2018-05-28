@@ -18,6 +18,10 @@
     /*.topbar-social ul li img {
         width: 17px;
     } */
+    .title_wrapper {
+        float: none;
+        text-align: center;
+    }
     .title_wrapper h1 {
         font-size: 18px;
     }
@@ -102,6 +106,10 @@
     .title {
         padding-top: 52px;
     }
+    .title_wrapper {
+        float: right;
+        text-align: center;
+    }
     .title_wrapper h1 {
         font-size: 36px;
     }
@@ -111,6 +119,7 @@
     .topbar-social {
         margin-top: 50px;
         text-align: left;
+        float: left;
         width: 100%;
     }
     .membership_wrapper {
