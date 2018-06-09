@@ -22,6 +22,7 @@
         float: none;
         text-align: center;
         margin-top: 0;
+        margin-right: -110px;
     }
     .title_wrapper h1 {
         font-size: 18px;
@@ -30,7 +31,8 @@
         font-size: 16px;
     }
     .membership_wrapper {
-        margin-top: -32px;
+        margin-top: 72px;
+        margin-left: -226px;
     }
     .membership_wrapper.btn {
         margin-left: 75px;
@@ -52,7 +54,13 @@
 
 @media screen and (min-width: 384px) {
     .site_logo {
-        padding-left: 145px;
+        padding-left: 135px;
+    }
+    .title_wrapper {
+        margin-right: -130px;
+    }
+    .membership_wrapper {
+        margin-left: -250px;
     }
 }
 
@@ -61,7 +69,13 @@
 
 @media screen and (min-width: 411px) {
     .site_logo {
-        padding-left: 162px;
+        padding-left: 150px;
+    }
+    .title_wrapper {
+        margin-right: -145px;
+    }
+    .membership_wrapper {
+        margin-left: -280px;
     }
 }
 
@@ -70,7 +84,19 @@
 
 @media screen and (min-width: 480px) {
     .site_logo {
-        padding-left: 208px;
+        padding-left: 180px;
+    }
+    .topbar-social {
+        margin-top: 30px;
+    }
+    .title_wrapper {
+        margin-right: -22px;
+        margin-top: 64px;
+    }
+    .membership_wrapper {
+        margin-top: 52px;
+        margin-left: -26px;
+        margin-bottom: 64px;
     }
 }
 
@@ -79,7 +105,7 @@
 
 @media screen and (min-width: 600px) {
     .site_logo {
-        padding-left: 297px;
+        padding-left: 325px;
     }
 }
 
@@ -99,7 +125,7 @@
         position: absolute;
         z-index: -1;
         padding-left: 312px;
-        margin-top: -40px;
+        margin-top: -60px;
     }
     .site_logo img {
         width: 75px;
@@ -111,6 +137,7 @@
         float: right;
         text-align: center;
         margin-top: -120px;
+        margin-right: -45px;
     }
     .title_wrapper h1 {
         font-size: 36px;
@@ -180,7 +207,10 @@
         padding-left: 64px;
     }
     .site_logo {
-        padding-left: 618px;
+        padding-left: 610px;
+    }
+    .title_wrapper {
+        margin-right: 0;
     }
 }
 

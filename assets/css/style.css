@@ -139,6 +139,10 @@ z-index: 1;
     background-size: cover;
 }
 
+.about_bg::before {
+    background: linear-gradient(#3065b5, #3eb8d7);
+}
+
 .about_wrapper {}
 
 .container_wrapper {
