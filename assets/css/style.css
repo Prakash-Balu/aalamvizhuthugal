@@ -18,9 +18,11 @@ body {
 }
 
 .title_bg {
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     z-index: 1;
-    background: url(../images/header_bg.jpg) no-repeat 100% 100%;
+    /* background: url(../images/header_bg.jpg) no-repeat 100% 100%; */
+    background-color: rgba(0, 0, 0, 0.5);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -28,7 +30,8 @@ body {
     width: 100%;
 }
 
-.title_bg::before {
+
+/* .title_bg::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -36,7 +39,7 @@ body {
     top: 0;
     left: 0;
     background: rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 /* .title {
@@ -143,10 +146,18 @@ z-index: 1;
     background: linear-gradient(#3065b5, #3eb8d7);
 }
 
-.about_wrapper {}
+.about_wrapper,
+.program_wrapper {
+    background-color: rgba(58, 161, 205, 0.7);
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    padding-bottom: 100px;
+}
 
 .container_wrapper {
-    /* background-color: #3aa1cd; */
+    /* background-color: rgba(58, 161, 205, 0.7); */
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: #fff;
@@ -156,16 +167,18 @@ z-index: 1;
 
 .about_wrapper h4 {
     /* color: #00326e; */
-    color: aqua;
+    color: #ffff66;
     font-family: 'Gugi', cursive;
     font-weight: bold;
 }
 
 .navbar_wrapper {
-    background: linear-gradient(#3065b5, #3eb8d7);
+    /* background: linear-gradient(#3065b5, #3eb8d7);*/
+    background: linear-gradient(rgba(48, 101, 181, 0.4), rgba(62, 184, 215, 0.4));
     /* border: none; */
     min-height: 65px;
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     z-index: 2;
     width: 100%;
     top: 145px;
@@ -181,6 +194,10 @@ z-index: 1;
     font-weight: bold;
     letter-spacing: 3px;
     font-family: 'Gugi', cursive;
+}
+
+.navbar_wrapper .navbar-nav>li>a:hover {
+    color: #929ba5;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -206,7 +223,7 @@ z-index: 1;
 }
 
 .navbar-nav>li>a.active {
-    color: #003471;
+    color: #ffff66;
 }
 
 .site_logo {
