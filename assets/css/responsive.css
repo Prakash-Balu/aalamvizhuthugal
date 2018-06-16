@@ -12,11 +12,11 @@
         z-index: 0;
     }
     .title {
-        padding-top: 13px;
+        /* padding-top: 13px; */
     }
     .topbar-social {
         width: 20px;
-        margin-top: 0;
+        margin-top: 18px;
     }
     /*.topbar-social ul li img {
         width: 17px;
@@ -24,7 +24,7 @@
     .title_wrapper {
         float: none;
         text-align: center;
-        margin-top: 0;
+        margin-top: -12px;
         margin-right: -110px;
     }
     .title_wrapper h1 {
@@ -34,7 +34,7 @@
         font-size: 16px;
     }
     .membership_wrapper {
-        margin-top: 72px;
+        margin-top: 50px;
         margin-left: -226px;
     }
     .membership_wrapper.btn {
@@ -106,15 +106,15 @@
         padding-left: 180px;
     }
     .topbar-social {
-        margin-top: 30px;
+        /* margin-top: 30px; */
     }
     .title_wrapper {
-        margin-right: -22px;
-        margin-top: 64px;
+        margin-right: 0;
+        margin-top: 50px;
     }
     .membership_wrapper {
-        margin-top: 52px;
-        margin-left: -26px;
+        margin-top: 46px;
+        margin-left: -42px;
         margin-bottom: 64px;
     }
     .team_mem_detail {
@@ -167,12 +167,12 @@
         width: 75px;
     }
     .title {
-        padding-top: 52px;
+        /* padding-top: 24px; */
     }
     .title_wrapper {
         float: right;
         text-align: center;
-        margin-top: -120px;
+        margin-top: -105px;
         margin-right: -45px;
     }
     .title_wrapper h1 {
@@ -182,13 +182,13 @@
         font-size: 23px;
     }
     .topbar-social {
-        margin-top: 50px;
+        margin-top: 58px;
         text-align: left;
         float: left;
         width: 100%;
     }
     .membership_wrapper {
-        margin-top: 0;
+        margin-top: 22px;
         float: right;
     }
     /* ## Footer */
@@ -272,6 +272,9 @@
     .site_logo {
         padding-left: 758px;
     }
+    .title_wrapper {
+        margin-right: 30px;
+    }
 }
 
 
@@ -283,6 +286,9 @@
     }
     .site_logo {
         padding-left: 806px;
+    }
+    .title_wrapper {
+        margin-right: 40px;
     }
 }
 
@@ -296,6 +302,9 @@
     .site_logo {
         padding-left: 940px;
     }
+    .title_wrapper {
+        margin-right: 72px;
+    }
 }
 
 
@@ -307,5 +316,8 @@
     }
     .site_logo {
         padding-left: 1278px;
+    }
+    .title_wrapper {
+        margin-right: 135px;
     }
 }
