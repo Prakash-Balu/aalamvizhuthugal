@@ -174,12 +174,13 @@ z-index: 1;
 }
 
 .vis_mis_box {
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: rgba(58, 161, 205, 0.7);
     border-radius: 16px;
 }
 
 .vis_mis_box_header {
-    background-color: #33a9ee;
+    background-color: #76bce4;
     height: 50px;
     padding-top: 10px;
 }
@@ -188,9 +189,9 @@ z-index: 1;
     padding: 25px 15px;
 }
 
-.vis_mis_box_content p {
+/*.vis_mis_box_content p {
     color: #000;
-}
+}*/
 
 .about_wrapper h4 {
     /* color: #00326e; */
