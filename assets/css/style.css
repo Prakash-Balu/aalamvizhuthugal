@@ -31,6 +31,10 @@ body {
 }
 
 
+
+
+
+
 /* .title_bg::before {
     content: '';
     position: absolute;
@@ -148,8 +152,8 @@ z-index: 1;
 
 .about_wrapper,
 .program_wrapper {
-    background-color: rgba(58, 161, 205, 0.7);
-    /* background-color: rgba(0, 0, 0, 0.5); */
+    /*background-color: rgba(58, 161, 205, 0.7);*/
+    background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: #fff;
     padding: 20px;
@@ -163,6 +167,29 @@ z-index: 1;
     color: #fff;
     padding: 20px;
     /* padding-bottom: 100px; */
+}
+
+.vis_mis_wrapper {
+    padding-bottom: 25px;
+}
+
+.vis_mis_box {
+    background-color: #fff;
+    border-radius: 16px;
+}
+
+.vis_mis_box_header {
+    background-color: #33a9ee;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.vis_mis_box_content {
+    padding: 25px 15px;
+}
+
+.vis_mis_box_content p {
+    color: #000;
 }
 
 .about_wrapper h4 {
@@ -270,6 +297,10 @@ z-index: 1;
 }
 
 
+
+
+
+
 /** Carousel Vertical **/
 
 .vertical .carousel-inner {
@@ -322,6 +353,10 @@ z-index: 1;
     left: 0;
     background: rgba(0, 0, 0, 0.35);
 }
+
+
+
+
 
 
 /** Home Content **/
@@ -522,6 +557,10 @@ z-index: 1;
 }
 
 
+
+
+
+
 /** About Content **/
 
 .about_us_content_img::before {
@@ -575,6 +614,10 @@ fieldset {
 .w3_agile_services_grid p {
     color: #fff;
 }
+
+
+
+
 
 
 /*-- circle-effect --*/
@@ -667,6 +710,10 @@ fieldset {
 }
 
 
+
+
+
+
 /*-- //circle-effect --*/
 
 
@@ -686,6 +733,10 @@ fieldset {
 .team_separate_col {
     padding-bottom: 30px;
 }
+
+
+
+
 
 
 /** Contact Content **/
@@ -802,6 +853,10 @@ textarea.form-control {
 }
 
 
+
+
+
+
 /** Footer contact **/
 
 .contact-details {
@@ -906,6 +961,10 @@ textarea.form-control {
 }
 
 
+
+
+
+
 /** Footer **/
 
 .footer {
@@ -931,6 +990,10 @@ textarea.form-control {
     /* Safari 4.0 - 8.0 */
 
 -webkit-animation-direction: alternate;
+
+
+
+
 
 /* Safari 4.0 - 8.0 */
 
